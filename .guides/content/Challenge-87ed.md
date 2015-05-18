@@ -1,0 +1,1 @@
+[A challenge to require user to demonstrate knowledge of boolean variables.]
