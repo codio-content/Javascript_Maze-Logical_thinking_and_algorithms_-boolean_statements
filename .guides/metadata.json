@@ -3,7 +3,13 @@
   {
    "id": "becfb7c2-35da-f23a-ffbc-8d6b4c55316e",
    "title": "Boolean",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "3-cell-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Boolean-becf.md"
@@ -17,30 +23,142 @@
    "content-file": ".guides/content/Or-and-And-6644.md"
   },
   {
-   "id": "b52e9707-da-2339-b8ba-459cc3dad6d2",
-   "title": "Challenge",
+   "id": "74767c7b-3ee4-8037-32ef-5ff81a93b791",
+   "title": "More on Logical Operators",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-b52e.md"
+   "content-file": ".guides/content/More-on-Logical-Operators-7476.md"
+  },
+  {
+   "id": "a0ad88f7-9056-aea2-7d51-2ed999b869f3",
+   "title": "Truth Tables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Truth-Tables-a0ad.md"
+  },
+  {
+   "id": "b52e9707-da-2339-b8ba-459cc3dad6d2",
+   "title": "Code Challenge 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/ch-1.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/ch-1",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Code-Challenge-1-b52e.md"
+  },
+  {
+   "id": "8c47d978-6827-a696-b51b-616e231778b0",
+   "title": "Code Challenge 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/ch-2.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/ch-2",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Code-Challenge-2-8c47.md"
   },
   {
    "id": "394f7cab-633e-baf0-e6d-344411309101",
    "title": "Boolean variables",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/js-1.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-1",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Boolean-variables-394f.md"
   },
   {
    "id": "87ed4915-4a6b-5015-3b7f-609aae8ad5df",
-   "title": "Challenge",
-   "files": [],
+   "title": "Challenge Keyboard",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/ch-3.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/ch-3",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-5-87ed.md"
+   "content-file": ".guides/content/Challenge-Keyboard-87ed.md"
+  },
+  {
+   "id": "544fe4a7-f3-1952-4d7f-d895c30c059",
+   "title": "Challenge !",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/ch-4.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/ch-4",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge---544f.md"
   }
  ],
- "theme": "charcoal",
+ "theme": "paper",
  "scripts": []
 }

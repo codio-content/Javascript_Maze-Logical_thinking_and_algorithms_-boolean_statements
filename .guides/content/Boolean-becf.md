@@ -2,7 +2,7 @@ Here we go with another term that is designed to confuse until you realize it is
 
 We've already been working with boolean conditions in fact. 
 
-> If your energy is less than 10, show message "You are low on energy".
+> If your energy is less than 10 ...
 
 Let's look at this in Javascript
 
@@ -12,12 +12,14 @@ if (energy < 10) {
 }
 ```
 
-The condition test is `energy < 10`. You can think of this as a question that has only a **true** or a **false** outcome.
+Let's look at some examples. Study these until you feel comfortable with them. We need them a lot. 
 
-Let's say energy is 5. In this case
+Remember `==` (equals), `!=` (not equals), `<` (less than), `<=` (less than or equal), `>` (greater than), `>=` (greater than or equal).
 
-- `energy < 10` is **true** as the energy (5) **is** less then 10.
-
-Let's now say that `energy` is 20.
-
-- `energy < 10` is **false** as the energy (20) **is not** less than 10.
+| Value of energy | Condition | Boolean Result |
+|-|-|-|
+| `energy = 5` | `energy == 5` | `true` | 
+| `energy = 5` | `energy != 5` | `false` | 
+| `energy = 10` | `energy < 10` | `false` | 
+| `energy = 10` | `energy <= 10` | `true` | 
+| `energy = 5` | `energy > 10` | `false` | 

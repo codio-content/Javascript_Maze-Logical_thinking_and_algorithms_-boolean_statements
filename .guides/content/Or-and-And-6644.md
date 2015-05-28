@@ -1,13 +1,27 @@
-It's pretty easy to deal with simple questions like 
+In the real world, questions are not always as simple as that. We often need to ask questions like
 
-> If your energy is less than 10, show message "You are low on energy".
+## AND `&&`
 
-But you will need to ask more interesting questions like
+*"If energy is less than 10 **AND** steps taken is greater than 20, then tell user the score is not going to be good"*
 
-> If energy is less than 10 **AND** steps taken is greater than 20, show message "You are doing really badly".
+```javascript
+if ( energy < 10 && steps > 20) {
+  do something
+}
+```
 
-or
 
-> If maze height is less than 5 **OR** maze width < 8, show message "The maze is a bit small".
+
+## OR `||`
+
+*"If the object you just hit is a monster **OR** an energy store then play a sound"*
 
 This is very easy to code in Javascript.
+
+```javascript
+if ( type == 'monster' || type == 'energy') {
+  do something
+}
+```
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>One</title>
+    
+    <% include include/game.ejs %>    
+ 
+    <script>        
+      
+      function userScriptLoaded() {
+        keyPressed (function (keyCode) {
+          if ( keyCode == 'LEFT' ) {
+            player.moveLeft()
+          } 
+          if ( keyCode == 'RIGHT' ) {
+            player.moveRight()
+          } 
+          if ( keyCode == 'UP' ) {
+            player.moveUp()
+          } 
+          keyPressedEvent(keyCode)
+       
+        })
+        allowDown = false
+        createEmptyMaze()
+        addPlayer()
+      } 
+      
+      document.addEventListener('DOMContentLoaded', function() {    
+                
+        // Boolean challenge 1
+        loadUserScript('/js/ch-4.js')
+        
+      })    
+    </script>
+    
+  </head>
+  <body>
+    <div id="game"></div>
+  </body>
+</html>
