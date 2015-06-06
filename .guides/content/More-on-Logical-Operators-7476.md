@@ -11,12 +11,14 @@ if ( energy < 10 && steps > 20) {
 }
 ```
 
-Javascript will look at the code as shown below. Assume `energy = 5`, `steps = 10`.
+Javascript will process the code as listed in the steps below. 
+
+Assume `energy = 5`, `steps = 10`.
 
 1. `(energy < 10) && (steps > 20)`
-1. `(5 < 10) && (10 > 20)`
-1. `(true) && (false)`
-1. (false)
+1. Is processed as `(5 < 10) && (10 > 20)`
+1. Which is `(true) && (false)`
+1. And the final result is `(false)`, so the overall condition is `false`.
 
 ## OR - the `||` operator
 Consider the following code

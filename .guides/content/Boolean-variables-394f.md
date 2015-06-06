@@ -18,9 +18,9 @@ A boolean variable can have only two possibles `true` or `false`.
 The code on the left shows the use of boolean variables in action.
 
 1. We are creating a variable called `killPlayer` and setting it to false.
-1. The first `if` statement asks "if `killPlayer == true` then set `energy` to 0.
+1. The first `if` statement asks "if `killPlayer == true` then set `energy` to 0".
 1. Writing a variable name as we have done without the `== true` is simply shorthand. We could have written it in full.
-1. The second `if` statement asks "if `killPlayer != true` then add 10 to the energy level.
+1. The second `if` statement asks "if `killPlayer != true` then add 10 to the energy level".
 1. Putting the `!` is the equivalent of saying 'Not', so it turns a `true` into a `false` or a `false` into a `true`.
 
 ## Change the Code

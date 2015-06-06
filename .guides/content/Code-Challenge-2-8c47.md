@@ -1,10 +1,11 @@
 |||challenge
-Go ahead and code up the following statement for the `stepTaken()` event handler.
+Write some code for the given `keyPressedEvent()` handler that 
 
-- If energy is less than 10 **OR** score is less than 20, show message "Looking weak".
-- Otherwise, show the message "Nothing to report".
+- shows the message 'Horizontal' if either the left or right key is pressed.
+- shows the message 'Vertical' if either the up or down key is pressed.
+- show the message "Another key was pressed" if any other key is pressed.
 
-Test this out so that you can see both messages, then press the button below.
+Test this out so that you can see all 3 messages, then press the button below.
 
 {check it!!}(test-and)
 

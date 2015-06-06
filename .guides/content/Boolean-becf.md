@@ -1,4 +1,4 @@
-Here we go with another term that is designed to confuse until you realize it is a useful catch-all term for a condition which can be either **true** or **false**.
+Here we go with another term that is designed to confuse until you realize it is a useful catch-all term for a condition or value that can be either **true** or **false**.
 
 We've already been working with boolean conditions in fact. 
 
@@ -16,7 +16,7 @@ Let's look at some examples. Study these until you feel comfortable with them. W
 
 Remember `==` (equals), `!=` (not equals), `<` (less than), `<=` (less than or equal), `>` (greater than), `>=` (greater than or equal).
 
-| Value of energy | Condition | Boolean Result |
+| Example Value | Condition | Boolean Result |
 |-|-|-|
 | `energy = 5` | `energy == 5` | `true` | 
 | `energy = 5` | `energy != 5` | `false` | 

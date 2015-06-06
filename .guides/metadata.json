@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "3-cell-tree",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Boolean-becf.md"
@@ -136,7 +136,7 @@
   },
   {
    "id": "544fe4a7-f3-1952-4d7f-d895c30c059",
-   "title": "Challenge !",
+   "title": "Final challenge",
    "files": [
     {
      "path": "#tabs",
@@ -156,7 +156,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge---544f.md"
+   "content-file": ".guides/content/Final-challenge-544f.md"
   }
  ],
  "theme": "paper",
