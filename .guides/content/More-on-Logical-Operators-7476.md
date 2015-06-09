@@ -1,5 +1,5 @@
 |||definition
-In Javascript, `&&`, `||` and `!` are know as *logical operators*
+In Javascript, `&&`, `||` and `!` are known as *logical operators*
 |||
 
 ## AND - the `&&` operator
@@ -31,8 +31,8 @@ if ( type == 'energy' || type == 'monster') {
 
 Assume `type = 'monster'`.
 
-1. `(type == 'energy') || (type == 'monster')
-1. `('monster' == 'energy') || ('monster' == 'monster')
+1. `(type == 'energy') || (type == 'monster')`
+1. `('monster' == 'energy') || ('monster' == 'monster')`
 1. `(false) || (true)`
 1. `(true)`
 

@@ -9,7 +9,7 @@ We've provided you some code already. You need to
 
 You will end up with an `if` within another `if` (a nested `if` statement). Don't forget the `{}` brackets.
 
-Indent your code neatly so the nested if is indented. You can do this quickly by highlighting multiple lines of code and then pressing the TAB key to indent or Shift+TAB to outdent.
+Indent your code neatly so the nested `if` is indented. You can do this quickly by highlighting multiple lines of code and then pressing the TAB key to indent or Shift+TAB to outdent.
 
 |||
 

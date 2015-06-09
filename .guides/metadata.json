@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "3-cell",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Boolean-becf.md"
@@ -57,7 +57,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Code-Challenge-1-b52e.md"
