@@ -7,7 +7,7 @@ Write some code for the given `keyPressedEvent()` handler that
 
 Test this out so that you can see all 3 messages, then press the button below.
 
-{check it!!}(test-and)
+{check it!!|custom}(ch-2)
 
 |||
 

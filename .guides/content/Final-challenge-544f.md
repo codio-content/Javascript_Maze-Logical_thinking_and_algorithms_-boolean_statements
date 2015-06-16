@@ -7,6 +7,8 @@ You get extra marks if pressing it again stops `if` from working. Each time you 
 
 **Hint** you can change the value of a boolean to false if true or true if false using `boolVar = !boolVar`.
 
+{check it!!|custom}(ch-4)
+
 |||
 
 |||guidance

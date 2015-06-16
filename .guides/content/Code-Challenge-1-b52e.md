@@ -7,7 +7,7 @@ Go ahead and code up the following statement for the `turnTaken()` event handler
 
 Test this out so you get both messages. You will need to bump into energy and monsters. When you're done, press the button below.
 
-{check it!!}(test-and)
+{check it!!|custom}(ch-1)
 
 |||
 
