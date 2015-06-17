@@ -27,4 +27,4 @@ For any 2 given inputs to a logical OR test, the following table applies.
 ## Internalizing
 The above really is obvious if you think about it. You use AND and OR all the time in every day speech. Make sure you are comfortable with these concepts but don't worry too much if the theory bit seems somewhat abstract.
 
-In a moment we will do a whole series of graudally harder challenges that will help you internalize this pretty quickly so it becomes second nature.
+In a moment we will do a whole series of gradually harder challenges that will help you internalize this pretty quickly so it becomes second nature.

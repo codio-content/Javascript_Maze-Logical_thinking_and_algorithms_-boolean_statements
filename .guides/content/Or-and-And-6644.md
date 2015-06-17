@@ -6,7 +6,7 @@ In the real world, questions are not always as simple as that. We often need to 
 
 ```javascript
 if ( energy < 10 && steps > 20) {
-  do something
+  showMessage('Your score is not going to be good')
 }
 ```
 
@@ -16,11 +16,9 @@ if ( energy < 10 && steps > 20) {
 
 *"If the object you just hit is a monster **OR** an energy store then play a sound"*
 
-This is very easy to code in Javascript.
-
 ```javascript
 if ( type == 'monster' || type == 'energy') {
-  do something
+  playSound('bump')
 }
 ```
 

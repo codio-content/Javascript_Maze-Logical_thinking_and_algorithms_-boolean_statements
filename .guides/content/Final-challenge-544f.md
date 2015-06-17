@@ -5,7 +5,7 @@ Write some code within the first `if` statement that changes the value of the `a
 
 You get extra marks if pressing it again stops `if` from working. Each time you press the A it 'toggles' between the arrow working and not working.
 
-**Hint** you can change the value of a boolean to false if true or true if false using `boolVar = !boolVar`.
+**Hint** you can change the value of a boolean to `false` when `true` or `true` when `false` using `boolVar = !boolVar`.
 
 {check it!!|custom}(ch-4)
 

@@ -7,7 +7,7 @@ Consider this expression
 
 ```javascript
 if ( energy < 10 && steps > 20) {
-  do something
+  showMessage('Hmm looks like you are struggling?')
 }
 ```
 
@@ -25,7 +25,7 @@ Consider the following code
 
 ```javascript
 if ( type == 'energy' || type == 'monster') {
-  do something
+  playSound('bump')
 }
 ```
 
