@@ -29,10 +29,11 @@ if ( type == 'energy' || type == 'monster') {
 }
 ```
 
+Javascript will process the code as listed in the steps below. 
+
 Assume `type = 'monster'`.
 
 1. `(type == 'energy') || (type == 'monster')`
-1. `('monster' == 'energy') || ('monster' == 'monster')`
-1. `(false) || (true)`
-1. `(true)`
-
+1. Is processed as `('monster' == 'energy') || ('monster' == 'monster')`
+1. Which is `(false) || (true)`
+1. And the final result is `(true)`, so the overall condition is `true`.
