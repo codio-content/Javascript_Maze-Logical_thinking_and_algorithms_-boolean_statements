@@ -3,9 +3,9 @@ We want you to implement a special keyboard handler but only if a boolean variab
 
 We've provided you some code already. You need to 
 
-- Create the boolean variable `allowOtherKeys`
+- Create the boolean variable `allowOtherKeys` and set its value to `true`
 - Insert an `if` statement that checks whether it is true
-- If it is true, then the keyboard handler should run so the 'A' moves the player left, 'D' moves right, 'W' up and 'X' down. You should insert the correct keyboard characters as upper case letters.
+- If it is true, then the keyboard handler should run so the 'A' moves the player left, 'D' moves right, 'W' up and 'S' down. You should insert the correct keyboard characters as upper case letters.
 
 You will end up with an `if` within another `if` (a nested `if` statement). Don't forget the `{}` brackets.
 
@@ -33,7 +33,7 @@ function keyPressedEvent(keyCode) {
     if ( keyCode == 'W' ) {
       player.moveUp()
     } 
-    if ( keyCode == 'X' ) {
+    if ( keyCode == 'S' ) {
       player.moveDown()
     } 
   }

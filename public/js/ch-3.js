@@ -1,5 +1,6 @@
-function keyPressedEvent(keyCode) {
 
+function keyPressedEvent(keyCode) {
+  
   if ( keyCode == '' ) {
     player.moveLeft()
   } 
@@ -14,4 +15,3 @@ function keyPressedEvent(keyCode) {
   } 
    
 }
-
