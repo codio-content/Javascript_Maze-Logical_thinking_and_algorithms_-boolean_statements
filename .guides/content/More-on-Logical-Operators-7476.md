@@ -18,7 +18,7 @@ Assume `energy = 5`, `steps = 10`.
 1. `(energy < 10) && (steps > 20)`
 1. Is processed as `(5 < 10) && (10 > 20)`
 1. Which is `(true) && (false)`
-1. And the final result is `(false)`, so the overall condition is `false`.
+1. And the final result is `(false)`, so the overall condition is `false` and the message will not be shown.
 
 ## OR - the `||` operator
 Consider the following code
@@ -36,4 +36,4 @@ Assume `type = 'monster'`.
 1. `(type == 'energy') || (type == 'monster')`
 1. Is processed as `('monster' == 'energy') || ('monster' == 'monster')`
 1. Which is `(false) || (true)`
-1. And the final result is `(true)`, so the overall condition is `true`.
+1. And the final result is `(true)`, so the overall condition is `true` and so the bump sound will play.
