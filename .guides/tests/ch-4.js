@@ -1,11 +1,13 @@
 
-keyPressedEvent  = null;
-window.allowDown = false;
+var fs = require('fs');
 
-$.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_=' + Date.now())
-.done(function (script, status) {
-  
-  createRandomMaze();
+keyPressedEvent  = null;
+global.allowDown = false;
+global.player = {};
+
+try {
+  var data = fs.readFileSync('/home/codio/workspace/public/js/ch-4.js', 'utf8');
+  eval(data);
     
   var _down = false;
   
@@ -18,7 +20,8 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
     keyPressedEvent('DOWN');
         
     if(_down) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }
     
     _down = false;
@@ -28,17 +31,22 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
     keyPressedEvent('DOWN');
 
     if(!allowDown || !_down) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }   
   }
   else {
-    return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+    process.stdout.write('Not quite right, try again!');  
+    process.exit(1);
   }
   
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');    
+  process.stdout.write('Well done!');  
+  process.exit(0);
 
-})
-.fail(function (jqxhr, settings, exception) {
-  console.log(exception);
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.INVALID, exception.message); 
-});
+}
+catch(e) {
+//  console.log(e); 
+}
+
+process.stdout.write('Not quite right, try again!');  
+process.exit(1);

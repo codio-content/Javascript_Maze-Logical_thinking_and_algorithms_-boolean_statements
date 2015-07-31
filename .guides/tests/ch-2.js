@@ -1,10 +1,11 @@
 
+var fs = require('fs');
+
 keyPressedEvent  = null;
 
-$.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_=' + Date.now())
-.done(function (script, status) {
-  
-  createEmptyMaze();
+try {
+  var data = fs.readFileSync('/home/codio/workspace/public/js/ch-2.js', 'utf8');
+  eval(data);
     
   var _left = false;
   var _right = false;
@@ -14,35 +15,35 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
   
   if(typeof keyPressedEvent  == 'function') {
     
-    window.showMessage = function (val) {
+    global.showMessage = function (val) {
       if(val.toLowerCase() == 'horizontal') _left = true;
     }
 
     keyPressedEvent('LEFT');
 
 
-    window.showMessage = function (val) {
+    global.showMessage = function (val) {
       if(val.toLowerCase() == 'horizontal') _right = true;
     }
 
     keyPressedEvent('RIGHT');
     
 
-    window.showMessage = function (val) {
+    global.showMessage = function (val) {
       if(val.toLowerCase() == 'vertical') _up = true;
     }
 
     keyPressedEvent('UP');
 
     
-    window.showMessage = function (val) {
+    global.showMessage = function (val) {
       if(val.toLowerCase() == 'vertical') _down = true;
     }
 
     keyPressedEvent('DOWN');
 
 
-    window.showMessage = function (val) {
+    global.showMessage = function (val) {
       if(val.toLowerCase() == 'another key was pressed') _another = true;
     }
 
@@ -50,18 +51,22 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
 
     
     if(!_left || !_right || !_up || !_down || !_another) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }
   }
   else {
-    return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+    process.stdout.write('Not quite right, try again!');  
+    process.exit(1);
   }
   
-  
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');    
+  process.stdout.write('Well done!');  
+  process.exit(0);
 
-})
-.fail(function (jqxhr, settings, exception) {
-  console.log(exception);
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.INVALID, exception.message); 
-});
+}
+catch(e) {
+  
+}
+
+process.stdout.write('Not quite right, try again!');  
+process.exit(1);
