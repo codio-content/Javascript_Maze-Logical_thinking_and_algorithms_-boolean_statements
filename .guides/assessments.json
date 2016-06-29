@@ -1,0 +1,66 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1118605564",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Toggle key",
+   "instructions": "The code on the left stops the down arrow key from working unless the user first presses the A key. However, it does not yet work!\n\nWrite some code within the first `if` statement that changes the value of the `allowDown` boolean variable if the 'A' key is pressed so that the down arrow key then works.\n\nYou get extra marks if pressing it again stops `if` from working. Each time you press the A it 'toggles' between the arrow working and not working.\n\n**Hint** you can change the value of a boolean to `false` when `true` or `true` when `false` using `boolVar = !boolVar`.\n",
+   "command": "node .guides/tests/ch-4.js ",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2006406433",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Checking keys",
+   "instructions": "Write some code for the given `keyPressedEvent()` handler that \n\n- shows the message 'Horizontal' if either the left or right key is pressed.\n- shows the message 'Vertical' if either the up or down key is pressed.\n- show the message \"Another key was pressed\" if any other key is pressed.\n\nTest this out so that you can see all 3 messages, then press the button below.\n",
+   "command": "node .guides/tests/ch-2.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2363242270",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Using booleans in conditionals",
+   "instructions": "Go ahead and code up the following statement for the `turnTaken()` event handler using `if/ else if /else` statements.\n\n- If energy is less than 10 **AND** steps taken is greater than or equal to 10, show message \"Not going well\".\n- Otherwise, show the message \"Going OK\".\n\n\nTest this out so you get both messages. You will need to bump into energy and monsters. When you're done, press the button below.\n",
+   "command": "node .guides/tests/ch-1.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2526065879",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Advanced keyboard handler",
+   "instructions": "We want you to implement a special keyboard handler but only if a boolean variable called `allowOtherKeys` is set to be `true`.\n\nWe've provided you some code already. You need to \n\n- Create the boolean variable `allowOtherKeys` and set its value to `true`\n- Insert an `if` statement that checks whether it is true\n- If it is true, then the keyboard handler should run so the 'A' moves the player left, 'D' moves right, 'W' up and 'S' down. You should insert the correct keyboard characters as upper case letters.\n\nYou will end up with an `if` within another `if` (a nested `if` statement). Don't forget the `{}` brackets.\n\nIndent your code neatly so the nested `if` is indented. You can do this quickly by highlighting multiple lines of code and then pressing the TAB key to indent or Shift+TAB to outdent.\n",
+   "command": "node .guides/tests/ch-3.js",
+   "points": 1
+  }
+ }
+]
